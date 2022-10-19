@@ -6,7 +6,7 @@ import Header from './components/Header.vue';
 
 <template>
   <Header/>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld/>
   <Footer/>
 </template>
 
