@@ -7,7 +7,8 @@ import Cards from './Cards.vue'
 <template>
 
   <div class="container">
-    <Cards v-for="(message, index) in data" :message="message.message" :image="message.image || undefined" :key="index" />
+    <!-- <Cards v-for="(message, index) in data" :message="message.message" :image="message.image || undefined" :key="index" /> -->
+    <Cards/>
   </div>
 
 </template>

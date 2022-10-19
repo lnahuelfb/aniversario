@@ -5,10 +5,17 @@ import Header from './components/Header.vue';
 </script>
 
 <template>
-  <Header/>
-  <HelloWorld/>
-  <Footer/>
+  <Header />
+  <main>
+    <HelloWorld />
+  </main>
+  <Footer />
 </template>
 
 <style scoped>
+main {
+  margin: 50px 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
 </style>
