@@ -65,7 +65,7 @@ export const data: messages[] = [
   },
   {
     title: "Espero que hayas disfrutado de este regalito ❤",
-    message: "",
+    message: "Jamas voy a cansar de decirte todo lo que te amo 💕",
     image: HyN,
   },
   {
