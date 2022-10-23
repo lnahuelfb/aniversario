@@ -11,6 +11,7 @@
 <style scoped>
 
 header{
+  width: 100%;
   box-sizing: border-box;
   display: flex;
   justify-content: center;

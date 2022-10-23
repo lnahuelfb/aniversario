@@ -1,8 +1,8 @@
 <template>
   <div class="slider-container">
     <div class="container slider-item" v-for="(card, index) in data" :key="index">
-      <h3>{{card.title}}</h3>
-      <span>{{card.message}}</span>
+      <h3>{{ card.title }}</h3>
+      <span>{{ card.message }}</span>
       <img :src="card.image">
     </div>
   </div>
@@ -30,9 +30,10 @@ export default {
   display: flex;
   overflow-x: scroll;
   scroll-snap-type: x proximity;
+  overflow-y: hidden;
 }
 
-.slider-container div{
+.slider-container div {
   flex: 0 0 100%;
   width: 100%;
   scroll-snap-align: center;
@@ -48,7 +49,7 @@ export default {
 }
 
 .container h3 {
-  margin:10px 0 20px 0;
+  margin: 10px 0 20px 0;
 }
 
 .container span {
@@ -56,9 +57,9 @@ export default {
 }
 
 .container img {
-  height: 350px;
+  max-height: 340px;
+  max-width: 320px;
   object-fit: cover;
   object-position: center;
 }
-
 </style>
